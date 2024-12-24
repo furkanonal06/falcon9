@@ -1,4 +1,17 @@
-# SpaceX Falcon 9 Launch Analysis and Dashboard
+<div align="center">
+  <a href="https://falcon9-webapp.onrender.com">
+    <img src="assets/SpaceX-black.svg" width="350px" alt="SpaceX Falcon 9">
+  </a>
+  
+  ## Falcon 9 Launch and Landing Analysis Web Application
+<br/>
+
+  [**Click here**](https://falcon9-webapp.onrender.com) to access the web app.
+  
+</div>
+
+
+<br/>
 
 This web-app is an end-to-end project focused on analyzing SpaceX Falcon 9 rocket launches and landings. The project explores key factors affecting mission success, employs machine learning models for predictions, and integrates findings into an interactive dashboard built with Dash Plotly. It also includes a notebook to explain processes like data gathering, web scrapping, explaratory analyses and builing predictive model for key engineering for missing `GridFins` and `Legs` features in addition to project's landing success predictive model.
 
