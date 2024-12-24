@@ -1,6 +1,6 @@
 # SpaceX Falcon 9 Launch Analysis and Dashboard
 
-This repository contains an end-to-end project focused on analyzing SpaceX Falcon 9 rocket launches. The project explores key factors affecting mission success, employs machine learning models for predictions, and integrates findings into an interactive dashboard built with Dash Plotly.
+This web-app is an end-to-end project focused on analyzing SpaceX Falcon 9 rocket launches and landings. The project explores key factors affecting mission success, employs machine learning models for predictions, and integrates findings into an interactive dashboard built with Dash Plotly. It also includes a notebook to explain processes like data gathering, web scrapping, explaratory analyses and builing predictive model for key engineering for missing `GridFins` and `Legs` features in addition to project's landing success predictive model.
 
 ---
 
@@ -17,32 +17,36 @@ This repository contains an end-to-end project focused on analyzing SpaceX Falco
 ---
 
 ## Overview
-This project analyzes 375 Falcon 9 launches and builds a predictive model for key engineering features like `GridFins` and `Legs`. It also includes a dashboard for interactive exploration and model predictions.
+The project focuses on creating a fully functional web app to explore and analyze SpaceX Falcon 9 rocket launches. With a combination of data preprocessing, feature engineering, and machine learning, the application predicts critical engineering features such as `GridFins` and `Legs`. The app also emphasizes responsive design and user experience, leveraging custom CSS to ensure accessibility across devices.
 
 ### Key Objectives:
-1. Data preprocessing and feature engineering.
-2. Predictive modeling for categorical variables.
-3. Visualization and exploration using an interactive dashboard.
+1. Build an interactive and visually appealing web app for SpaceX Falcon 9 data.
+2. Predictive modeling for landing outcome.
+3. Enhance user experience through responsive design with custom CSS.
+4. Implement data preprocessing and feature engineering techniques.
+5. Feature engineering with predictive modeling for categorical variables.
 
 ---
 
 ## Features
-- **Data Analysis**: Exploratory data analysis and visualizations.
-- **Feature Engineering**: Encoding and standardizing categorical and numerical features.
-- **Machine Learning**: Predictive modeling for key engineering decisions.
 - **Interactive Dashboard**:
-  - Dropdown menus for selecting launch parameters.
-  - Real-time predictions for `GridFins` and `Legs` based on user input.
+  - Dropdown menus for selecting launch and landing parameters.
+  - Intuitive visualizations for exploring launch data and trends.
   - Clear, user-friendly visualizations.
+- **Machine Learning**:
+  - Real-time predictions for landing outcome based on user input.
+  - Predictive modeling to infer missing engineering features like `GridFins` and `Legs`.
+- **Data Analysis**: Exploratory data analysis with visual insights into trends and patterns.
+- **Feature Engineering**: Encoding and standardizing categorical and numerical features.
 
 ---
 
 ## Technologies Used
 - **Python**: Data analysis, modeling, and dashboard implementation.
+- **Scikit-learn**: For building and evaluating predictive models.
+- **CSS**: Custom styling for responsiveness and improved design.
 - **Dash Plotly**: For creating the interactive dashboard.
 - **Pandas/NumPy**: For data preprocessing and wrangling.
-- **Scikit-learn**: For building and evaluating predictive models.
-
 ---
 
 ## Dataset Description
@@ -107,15 +111,14 @@ The dataset combines REST API and web scraping data. It includes:
 
 ## Project Structure
 ```
-falcon9-analysis/
-├── data/                   # Dataset files.
-├── notebooks/              # Jupyter notebooks for exploration.
+falcon9-webapp/
+├── assets/                 # Project assets including CSS codes and images.
+├── notebooks/              # Jupyter notebooks for exploration, data preprocessing and model training.
 ├── app.py                  # Dashboard application.
-├── preprocess.py           # Data preprocessing script.
-├── train_model.py          # Model training script.
 ├── requirements.txt        # Python dependencies.
 ├── README.md               # Project documentation.
-└── models/                 # Trained model files.
+├── spacexcomplete.csv      # Data with encoded features for model training.
+└── spacexvisual.csv        # Data for creating graphs.
 ```
 
 ---
