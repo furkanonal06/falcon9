@@ -13,7 +13,7 @@
 
 <br/>
 
-This web-app is an end-to-end project focused on analyzing SpaceX Falcon 9 rocket launches and landings. The project explores key factors affecting mission success, employs machine learning models for predictions, and integrates findings into an interactive dashboard built with Dash Plotly. It also includes a notebook to explain processes like data gathering, web scrapping, explaratory analyses and builing predictive model for key engineering for missing `GridFins` and `Legs` features in addition to project's landing success predictive model.
+This web-app is an end-to-end project focused on analyzing SpaceX Falcon 9 rocket launches and landings. The project explores key factors affecting mission success, employs machine learning models for predictions, and integrates findings into an interactive dashboard built with Dash Plotly. It also includes a notebook to explain processes like data gathering, web scrapping, explaratory analyses and building a predictive model for missing `GridFins` and `Legs` features in addition to the project's landing success predictive model.
 
 ---
 
@@ -48,7 +48,7 @@ The project focuses on creating a fully functional web app to explore and analyz
   - Clear, user-friendly visualizations.
 - **Machine Learning**:
   - Real-time predictions for landing outcome based on user input.
-  - Predictive modeling to infer missing engineering features like `GridFins` and `Legs`.
+  - Predictive modeling to infer missing features like `GridFins` and `Legs`.
 - **Data Analysis**: Exploratory data analysis with visual insights into trends and patterns.
 - **Feature Engineering**: Encoding and standardizing categorical and numerical features.
 
